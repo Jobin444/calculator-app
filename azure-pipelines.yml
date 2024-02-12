@@ -10,7 +10,7 @@ steps:
     publishWebProjects: true
 - task: AzureWebApp@1
   inputs:
-    azureSubscription: 'Pay-As-You-Go'
+    azureSubscription: 'Towards AzureDevops1'
     appType: 'webAppLinux'
     appName: 'webcalculator1-app'
     package: '$(System.DefaultWorkingDirectory)/**/*.zip'
